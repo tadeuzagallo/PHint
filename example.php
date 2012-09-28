@@ -1,4 +1,4 @@
-<?php require('./TZObject.php');
+<?php require('./PHint.php');
 
 class Person extends TZObject {
 	protected $definition = array(
