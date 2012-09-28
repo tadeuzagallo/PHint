@@ -50,3 +50,15 @@ $john->childs[] = $billy;
 $jane->childs[] = $billy;
 
 echo $billy->talk();
+
+//EXAMPLES OF ERRORS
+//
+//$billy->name = 10;
+//$mary = new stdclass();
+//$billy->spouse = $mary;
+//
+//class Player extends Person {
+//	public function TZString_talk() {
+//		return $this->age;
+//	}
+//}
